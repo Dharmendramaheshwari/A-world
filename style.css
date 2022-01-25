@@ -1,0 +1,851 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+
+html{
+    font-size: 15px;
+    scroll-behavior: smooth;
+}
+
+
+.container{
+    width: 100%;
+    padding-bottom: 22%;
+    background-image: url("picss/banner-bg.png");
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    border-bottom: 45px solid #343a40;
+
+}
+
+
+.logo{
+    text-align: center;
+    padding-top: 2.5%;
+}
+
+
+.navi{
+    width: 55%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 5%;
+}
+
+
+
+.navi ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    color: #fff;
+    font-size: 1.2rem;
+    
+}
+
+
+ul a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+ul a:hover{
+    color: #007bff;
+}
+
+
+.toggle{
+    display: none;
+    position: absolute;
+    top: 10px;
+    right: 10px;    
+    border: none;
+    background-color: transparent;
+    outline: none;
+
+}
+
+
+.bar{
+    font-size: 30px;
+    color: #fff;
+    margin-top: 3px;
+}
+
+
+.banner{
+    text-align: center;
+    padding-top: 7%;
+    color: #fff;
+}
+
+.banner h1{
+    font-size: 5.2rem;
+    font-family: 'Righteous', Regular;
+    font-weight: 700;
+}
+
+
+.banner p{
+    padding: 1% 0 4% 0;
+    font-size: 1.07rem;
+    line-height: 26px;
+}
+
+
+.banner .btn{
+    width: 190px;
+    height: 47px;
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+    border: none;
+    font-size: 1.02rem;
+    cursor: pointer;
+}
+
+
+.banner .btn:hover{
+    color: #fff;
+    background-color: #007bff;
+    font-size: 1.07rem;
+}
+
+
+.services{
+    width: 100%;
+    margin-top: 7%;
+}
+
+
+.services-p{
+    width: 84%;
+    margin: 0 auto;
+    padding-bottom: 6%;
+}
+
+
+.services-p h1{
+    color: #1f1f1f;
+    font-size: 2.8rem;
+}
+
+
+.services-p p{
+    color: #1f1f1f;
+    padding-top: 1%;
+}
+
+
+
+
+.services-pic{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.pic-1, .pic-2, .pic-3{
+    width: 32%;
+    margin: 0 auto;
+}
+
+
+.pic-1 img, .pic-2 img, .pic-3 img{
+    width: 100%;
+}
+
+
+
+.service-btn{
+    width: 155px;
+    height: 47px;
+    color: #fff;
+    background-color: #0c2e52;
+    border-radius: 20px;
+    border: none;
+    font-size: 1.08rem;
+    font-weight: 700;
+    cursor: pointer;
+    margin: 7% 0 0 25%;
+}
+
+
+.service-btn:hover{
+    background-color: black;
+}
+
+
+.p-pic{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 12%;
+    
+}
+
+.about-p{
+    width: 50%;
+    padding: 3% 6% 6% 8%;
+}
+
+
+.about-p h1{
+    color: #1f1f1f;
+    font-size: 2.6rem;
+}
+
+.about-p p{
+    color: #1f1f1f;
+    padding: 10% 0 15% 0;
+    line-height: 27px;
+    font-size: 1rem;
+    font-weight: 400;
+    
+}
+
+
+
+
+.about-btn{
+    width: 170px;
+    height: 47px;
+    color: #fff;
+    background-color: #000d10;
+    border-radius: 20px;
+    border: none;
+    font-size: 1.08rem;
+    font-weight: 700;
+    cursor: pointer;
+    
+}
+
+
+.about-btn:hover{
+    background-color: #0c2e52;
+}
+
+.about-pic{
+    width: 48%;
+}
+
+.about-pic img{
+    width: 100%;
+}
+
+
+.videos{
+    width: 100%;
+    padding-bottom: 26%;
+    background-image: url("picss/blog-bg.png");
+    background-size: cover;
+    background-position: center top;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    margin-top: 5%;
+
+
+}
+
+
+
+.videos .see{
+    text-align: center;
+    padding-top: 19%;
+    color: #fff;
+}
+
+
+.see h1{
+    font-size: 2.5rem;
+}
+
+
+.see p{
+    font-size: 1.1rem;
+    font-weight: 400;
+    padding-top: 1%;
+}
+
+
+.videos .play{
+    width: 10%;
+    margin: 0 auto;
+    padding-top: 7%;
+}
+
+
+.testi{
+    width: 300px;
+    padding-bottom: 5%;
+    margin: 0 auto;
+    margin-top: 7%;
+}
+
+
+.testi h1{
+    font-size: 2.8rem;
+    color: #131313;
+}
+
+
+.testimonial{
+    width: 90%;
+    padding-bottom: 7%;
+    margin: 0 auto;
+    margin-top: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 1px 16px -6px;
+
+    
+}
+
+
+.speech{
+    width: 45%;
+    margin: 0 auto;
+    padding-top: 7%;
+}
+
+.speech p{
+    color: #0d0d0d;
+    font-size: 1rem;
+    text-align: center;
+    padding: 13%;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.customer{
+    width: 45%;
+}
+
+
+.opinion{
+    padding-top: 25%;
+}
+
+
+.customer .opinion h1, h5{
+    text-align: right;
+    display: inline-block;
+}
+
+.customer .opinion h1{
+    color: #012628;
+}
+
+
+.customer .opinion h5{
+    color: #085a57;
+}
+
+
+.choose{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 15%;
+}
+
+
+.choose h1{
+    color: #131313;
+    font-size: 2.5rem;
+
+}
+
+
+.choose p{
+    padding: 4% 0 8% 0;
+    line-height: 27px;
+}
+
+
+.talk{
+    width: 89%;
+    padding: 1.6%;
+    margin: 0 auto;
+    margin-top: 7%;
+    border: 1px solid black;
+    border-radius: 20px;
+    display: flex;
+    
+
+}
+
+
+.talk h1{
+    color: #131313;
+    font-size: 2.5rem;
+
+}
+
+
+.talk .about-btn{
+    background-color: #2b2278;
+    margin-left: 46%;
+}
+
+
+.talk .about-btn:hover{
+    background-color: black;
+}
+
+
+.foooter{
+    width: 100%;
+    background-image: url("picss/footer-bg.png");
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    margin-top: 4%;
+    padding-top: 22rem;
+}
+
+
+.foooter .f-section{
+    width: 68%;
+    margin: 0 auto;
+    padding-bottom: 3%;
+    
+}
+
+
+.foooter .phone{
+    text-align: center;
+    color: #fff;
+}
+
+
+.foooter .gmail{
+    text-align: center;
+    margin: 2% 0 2% 0;
+    color: #fff;
+
+}   
+
+
+
+.foooter .icon{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 2.5%;
+    color: #fff;
+    
+}   
+
+
+
+
+.copyright .rights{
+    width: 100%;
+    padding-bottom: 1%;
+    background-color: #122c2d;
+}
+
+
+.rights p{
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 200;
+    text-align: center;
+    padding-top: 1.5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:991px){
+
+    .about-p{
+        width: 45%;
+        padding: 1%;
+
+    }
+
+    
+    .about-p p{
+        line-height: 27px;
+        font-size: 1rem;
+    
+    }
+
+    .about-pic{
+        width: 51%;
+    }
+
+    .service-btn{
+        margin-left: 20%;
+    }
+
+    .testi h1{
+        margin-left: 8%;
+
+    }
+
+    .choose h1{
+        font-size: 2.2rem;
+
+    }
+
+
+    .choose p{
+        font-size: 0.9rem;
+    }
+
+    .foooter{
+        padding-top: 20rem;
+    }
+
+    .foooter .phone{
+        width: 100%;
+        margin-bottom: 3%;
+    }
+
+    
+    .foooter .gmail{
+        width: 100%;
+        margin-bottom: 3%;
+
+    }
+
+    
+    .foooter .icon{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:835px){
+
+    .service-btn{
+        margin-left: 18%;
+    }
+}
+
+
+@media only screen and (max-width:800px){
+
+    .service-btn{
+        margin-left: 12%;
+    }
+}
+
+
+
+@media only screen and (max-width:767px){
+    
+
+    .talk h1{
+        font-size: 1.6rem;
+
+    }
+
+    .service-btn{
+        margin-left: 10%;
+    }
+
+    .testi h1{
+        margin-left: 8%;
+
+    }
+
+    
+    .foooter{
+        padding-top: 15rem;
+    }
+
+}
+
+
+@media only screen and (max-width:667px){
+    .toggle{
+        display: block;
+    }
+
+    .navi ul{
+        background-color: #111;
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 55px;
+        left: 10px;
+        padding: 4%;
+        z-index: 55;
+    }
+
+    .navi ul li{
+        padding: 5px 10px;
+    }
+
+    
+    .logo{
+        text-align: left;
+        padding-left: 2%;
+        
+    }
+
+    .navi{
+        width: 65%;
+    }
+
+    .nav{
+        padding: 10px;
+
+    }
+
+    
+    .banner h1{
+        font-size: 3.2rem;
+        
+    }
+
+    
+    .banner p{
+        padding: 1% 0 4% 0;
+        font-size: 0.9rem;
+        line-height: 26px;
+    }
+
+    
+    .pic-1, .pic-2, .pic-3{
+        width: 100%;
+        
+    }
+
+    
+    .service-btn{
+        margin-left: 37%;
+        margin-bottom: 4%;
+    }
+
+    
+    .about-p{
+        width: 100%;
+        
+    }
+
+    .about-pic{
+        width: 100%;
+    }
+
+    .about-p h1 {
+        text-align: center;
+    }
+
+    .about-p .about-btn{
+        margin-left: 35%;
+    }
+
+
+    .testi h1{
+        margin-left: 8%;
+
+    }
+    
+
+    .speech{
+        width: 100%;
+    }
+
+    .customer{
+        width: 100%;
+        padding: 0 0 1% 28%;
+    }
+
+    
+    .choose h1{
+        font-size: 2rem;
+
+    }
+
+
+    .choose p{
+        font-size: 0.7rem;
+    }
+
+    .talk h1{
+        font-size: 1.4rem;
+    }
+
+    
+    .foooter .phone{
+        width: 100%;
+        margin-bottom: 3%;
+    }
+
+    
+    .foooter .gmail{
+        width: 100%;
+        margin-bottom: 3%;
+
+    }
+
+
+    .foooter .icon{
+        width: 100%;
+    }
+
+
+}
+
+
+@media only screen and (max-width:530px){
+
+    .logo{
+        width: 25%;
+    }
+
+    .logo img{
+        width: 100%;
+    }
+
+    
+    .banner h1{
+        font-size: 2.3rem;   
+    }
+
+    
+    .services-p h1{
+        font-size: 1.9rem;
+        
+    }
+
+    
+    .service-btn{
+        margin-left: 33%;
+    }
+
+    .about-p h1{
+        font-size: 1.9rem;
+        
+    }
+
+
+    .see h1{
+        font-size: 2.1rem;
+
+    }
+
+    .videos .play{
+        width: 38%;
+    }
+
+    .play img{
+        width: 100%;
+    }
+
+
+    .testi h1{
+        font-size: 1.8rem;
+        margin-left: 25%;
+
+    }
+
+    .choose h1{
+        font-size: 1.5rem;
+
+    }
+
+
+    .talk h1{
+        font-size: 1.2rem;
+
+    }
+
+
+    .opinion{
+        margin-right: 22%;
+    }
+
+    .opinion img{
+        width: 100%;
+    }
+    
+    
+    .customer .opinion h1, h5{
+        font-size: 0.8rem;
+    }
+
+    
+    .foooter{
+        padding-top: 12rem;
+    }
+    
+
+
+}
+
+
+@media only screen and (max-width:467px){
+    
+    .talk h1{
+        font-size: 1rem;
+
+    }
+
+    .about-btn{
+        font-size: 0.8rem;
+        width: 150px;
+        height: 40px;
+    }
+}
+
+@media only screen and (max-width:422px){
+    
+    .about-p .about-btn{
+        margin-left: 32%;
+    }
+}
+
+
+@media only screen and (max-width:400px){
+    .talk h1{
+        font-size: 0.8rem;
+
+    }
+
+    
+    
+    .service-btn{
+        margin-left: 28%;
+    }
+
+}
+
+
+@media only screen and (max-width:358px){
+    .talk h1{
+        font-size: 0.7rem;
+
+    }
+
+    
+    .service-btn{
+        margin-left: 23%;
+    }
+
+}
